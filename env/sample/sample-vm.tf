@@ -11,7 +11,7 @@ locals {
   # ehable_boot_diagnostics : ブート診断の有無
   # ehable_backup           : バックアップ有無
   # resource_group_key、subnet_keyは必須。その他の割当不要なリソースのkeyは""（空文字）とする。
-  main-vm_var = {
+  sample-vm_var = {
     resource_group_key            = "rg1"
     subnet_key                    = "sub1"
     ehable_boot_diagnostics       = false
